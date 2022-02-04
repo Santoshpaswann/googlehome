@@ -1,0 +1,93 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+#nav a{
+    margin: 20px;
+}
+#nav a.topimage{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#middle{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    text-align: center;
+}#searchbarcontainer{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+#search #voice{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid #c4c4c4;
+}
+#search{
+    left: 10;
+}
+#voice{
+    right: 10;
+}
+#button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgb(231, 231, 231);
+}
+#links{
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.button:hover{
+    box-shadow: 0 0 2px 1px black;
+    border: 2px solid #eee;
+}
+#footer-content{
+    background: #eee;
+    border-top: 1px solid transparent;
+}
+#searchbar:hover{
+    box-shadow: 0 0 10px 2px rgb(233, 233, 233);
+}
